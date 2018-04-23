@@ -1,0 +1,205 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "SFProText-Semibold";
+  src: url("css/font/SF-Pro-Text-Semibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SFProText-bold";
+  src: url("css/font/SF-Pro-Text-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "SFProText-Regular";
+  src: url("css/font/SF-Pro-Text-Regular.otf") format("opentype");
+}
+
+
+body{
+  font-family: "SFProText-Regular";
+  font-size: 13px;
+  color:#ffffff;
+}
+
+li{
+    list-style: none;
+}
+.container {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 375px;
+}
+
+.content {
+  width: 90%;
+}
+
+
+nav {
+  display: block;
+  width: 100%;
+  background-color: #EB5757;
+}
+
+.bus-list {
+  height: 72px;
+  width: 100%;
+  border-bottom: 1px solid ##BDBDBD;
+  padding: 14px 16px;
+  background-color: #8E8E93;
+
+}
+
+
+
+.direction-list {
+  height: 36px;
+  width: 100%;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+
+
+
+h1.bus-direction{
+    font-size: 14px;
+    padding-left:16px;
+    display: inline;
+    Align: Left;
+    Letter-Spacing: -2.41%;
+    color: #8E8E93;
+    margin-top: 10em;
+    text-transform: uppercase;
+}
+
+.resume{
+    padding-top: 29px;
+
+}
+
+
+.direction{
+  font-size: 18px;
+  margin-top: 1em;
+  height: 30px;
+  background-color: #ffffff;
+}
+
+.bottom-nav{
+  width: 100%;
+  padding-bottom: 48px;
+  background-color: black;
+}
+
+.time{
+  color: #ffffff;
+  padding-bottom: 0.5em;
+  font-size: 18px;
+
+}
+
+.bus{
+  position: relative;
+  color: #ffffff;
+  font-size: 18px;
+  padding-bottom: 0.5em;
+}
+
+.right{
+    float: right;
+    padding-left: 16px;
+    text-align: right;
+}
+
+
+.left{
+    float: left;
+    padding-right: 16px;
+}
+
+.statusbar {
+  background-image: url("../images/statusbar.png");
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 100%;
+}
+
+
+.back {
+  float: left;
+  width: 20%;
+  padding: 10px 0 10px 0;
+}
+
+.stop {
+  /* Washington & State: */
+  font-family: 'SFProText-Regular';
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  float: left;
+  width: 80%;
+  margin-top:10px;
+}
+
+.bus-list.notavailable{
+    background-color: #D14242;
+
+}
+
+.stopnav {
+  color: #FFFFFF;
+  width: 100%;
+  height: 76px;
+  margin-right: 16px;
+}
+
+.stoptop {
+  float: left;
+  width: 280px;
+  height: auto;
+  background: #fff;
+  color: #888888;
+
+}
+
+.stoptop p {
+  float: left;
+  margin-left: 5px;
+}
+
+#type {
+  float: left;
+  margin-left: 20px;
+}
+
+.stopbelow {
+  margin-top: 10px;
+  float: left;
+  width: 280px;
+  height: auto;
+  background: #fff;
+  color: #888888;
+
+}
+
+.stopbelow p {
+  float: left;
+  margin-left: 5px;
+}
+
+#type1 {
+  float: left;
+  margin-left: 38px;
+}
+
+.back {
+  float: left;
+  width: 10%;
+  margin-left: 15px;
+  padding: 10px 0 10px 0;
+}
